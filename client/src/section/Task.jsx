@@ -7,7 +7,7 @@ const Task = () => {
       <section className="container mx-auto px-5 py-10">
           <div className="flex justify-between items-center">
               <div className="flex items-center gap-2">
-                  <PiFlowerLotusBold size={30} className="text-red-700" /> 
+                  <PiFlowerLotusBold size={35} className="text-red-700" /> 
               <h2 className="text-2xl font-medium">Tasks</h2>
               </div>
               <ViewAllButton/>
