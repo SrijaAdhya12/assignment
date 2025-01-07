@@ -68,7 +68,7 @@ const Carousel = () => {
     ];
 
     return (
-        <div className="p-4 max-w-screen-lg mx-auto">
+        <div className="pt-10 max-w-screen-lg mx-auto">
             <Slider {...settings}>
                 {slides.map((slide, index) => (
                     <div key={index} className="px-2">
@@ -82,7 +82,7 @@ const Carousel = () => {
                         >
                             <h3 className="text-xl font-bold">{slide.title}</h3>
                             {slide.description && (
-                                <p className="text-xs leading-5 mt-4 md:mt-8">
+                                <p className="text-xs leading-7 mt-8 md:mt-8">
                                     {slide.description}
                                 </p>
                             )}
