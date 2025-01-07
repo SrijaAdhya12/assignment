@@ -1,4 +1,4 @@
-import { Hero, Task, News, Events } from "../section"
+import { Hero, Task, News, Events, Updates } from "../section"
 const Home = () => {
   return (
     <>
@@ -6,6 +6,7 @@ const Home = () => {
       <Task />
       <News />
       <Events />
+      <Updates />
     </>
   )
 }
