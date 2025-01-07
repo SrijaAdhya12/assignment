@@ -1,6 +1,7 @@
 import React from 'react'
 import { Taskbox } from '../components'
 import { PiFlowerLotusBold } from "react-icons/pi"
+import { ViewAllButton } from '../components'
 const Task = () => {
   return (
       <section className="container mx-auto px-5 py-10">
@@ -9,7 +10,7 @@ const Task = () => {
                   <PiFlowerLotusBold size={30} className="text-red-700" /> 
               <h2 className="text-2xl font-medium">Tasks</h2>
               </div>
-              <button className="bg-red-700 text-white px-6 py-2 rounded-md">View All</button>
+              <ViewAllButton/>
           </div>
           <div className='my-5'>
               <Taskbox/>
