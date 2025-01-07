@@ -86,10 +86,10 @@ const Carousel = () => {
                                     {slide.description}
                                 </p>
                             )}
-                            <button className="mt-auto text-md flex items-center gap-6">
+                            <button className="mt-auto mb-4 text-md flex items-center gap-12">
                                 <span className="font-medium">More info</span>
                                 <span
-                                    className={`transition-transform transform hover:scale-110 bg-white rounded-full p-2`}
+                                    className={`transition-transform transform hover:scale-110 bg-white rounded-md p-2`}
                                 >
                                     <FaArrowRight className={`${slide.arrowColor}`} />
                                 </span>
