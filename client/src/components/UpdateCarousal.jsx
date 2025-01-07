@@ -80,7 +80,7 @@ const Carousel = () => {
                                 backgroundPosition: "center",
                             }}
                         >
-                            <h3 className="text-xl font-bold">{slide.title}</h3>
+                            <h3 className="text-xl font-bold mt-5">{slide.title}</h3>
                             {slide.description && (
                                 <p className="text-xs leading-7 mt-8 md:mt-8">
                                     {slide.description}
