@@ -27,7 +27,7 @@ const Carousel = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1.2,
+                    slidesToShow: 1.4,
                 },
             },
         ],
