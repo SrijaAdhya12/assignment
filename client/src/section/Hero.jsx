@@ -2,16 +2,18 @@ import { HiMenuAlt2 } from "react-icons/hi"
 import { IoPersonOutline } from "react-icons/io5"
 import { MdOutlineWorkOutline } from "react-icons/md"
 import { RiCopperCoinLine } from "react-icons/ri"
-import { logo, profile } from "../assets"
+import { logo, profile, lotus, lotustop } from "../assets"
 const Hero = () => {
   return (
-      <section className="bg-yellow-100 rounded-b-3xl">
+      <section className="bg-yellow-100 rounded-b-3xl relative">
+          <div>
+              <img src={lotustop} alt="lotustop" className="absolute top-0 left-0 w-10 h-15 z-10" />
+          </div>
           <div className="container mx-auto px-5 py-10">
           <div className="flex justify-between items-center">
               <div className="text-2xl text-gray-600 cursor-pointer h-10 w-10 flex items-center justify-center rounded-full bg-white">
                   <HiMenuAlt2 />
               </div>
-
                   <img
                       src= {logo}
                       alt="Logo"
@@ -39,11 +41,14 @@ const Hero = () => {
                           </div>
                       </div>
                   </div>
-                  <div className="h-8 p-3 gap-2 bg-white flex items-center justify-center rounded-md text-red-700">
+                  <div className="h-8 p-3 gap-2 bg-white flex items-center justify-center rounded-md text-red-700 z-10">
                       <RiCopperCoinLine size={20} />
                       <p className="font-medium">4000</p>
                   </div>
-              </div>            
+              </div>     
+              <div>
+                  <img src={lotus} alt="lotus" className="absolute bottom-0 right-1 w h-15" />
+              </div>
           </div>
       </section>
   )
