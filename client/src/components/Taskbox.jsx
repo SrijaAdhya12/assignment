@@ -33,12 +33,12 @@ const Taskbox = () => {
 
           <div className='flex items-center gap-6 shadow-lg rounded-lg bg-white p-6 bottom-1 relative'>
               <div className='flex flex-col items-center justify-center bg-white shadow-lg rounded-lg p-4 gap-2 bottom-2 border-gray-500'>
-                  <h1 className='text-4xl font-bold text-purple-500'>3</h1>
-                  <p className='text-sm text-purple-500'>Days Left</p>
+                  <h1 className='text-4xl font-bold text-blue-500'>3</h1>
+                  <p className='text-sm text-blue-500'>Days Left</p>
               </div>
               <div className='flex flex-col gap-2'>
                   <h3 className='text-xl font-semibold'>Sangathan Yatra</h3>
-                  <div className='text-sm justify-center items-center bg-purple-200 border-purple-500 border-2 rounded-xl text-center w-24 py-1'>
+                  <div className='text-sm justify-center items-center bg-purple-200 border-blue-500 border-2 rounded-xl text-center w-24 py-1'>
                       In Progress
                   </div>
               </div>
