@@ -5,7 +5,7 @@ import { RiCopperCoinLine } from "react-icons/ri"
 import { logo, profile, lotus, lotustop } from "../assets"
 const Hero = () => {
   return (
-      <section className="bg-[#C01F101A] rounded-b-3xl relative">
+      <section className="bg-[#C01F101A]  rounded-b-3xl relative">
           <div>
               <img src={lotustop} alt="lotustop" className="absolute top-0 left-0 w-10 h-15 z-10" />
           </div>
