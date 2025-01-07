@@ -11,16 +11,13 @@ const Carousel = () => {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 1.5,
+        slidesToShow: 1.2,
         slidesToScroll: 1,
         draggable: true,
         arrows: false,
         centerMode: true,
         centerPadding: "0px",
         beforeChange: (current, next) => setActiveSlide(next),
-        customPaging: () => (
-            <div className="w-2 h-2 mx-0.5 bg-red-500 rounded-full  my-2" /> // Custom dot style (red)
-        ),
     };
 
     const slides = [
