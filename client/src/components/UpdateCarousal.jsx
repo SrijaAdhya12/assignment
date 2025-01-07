@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { FaArrowRight } from "react-icons/fa"
+import { FaArrowRight } from "react-icons/fa";
 import { update1, update2, update3, update4 } from "../assets";
 
 const Carousel = () => {
@@ -19,7 +19,7 @@ const Carousel = () => {
                 },
             },
             {
-                breakpoint: 600,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -41,33 +41,31 @@ const Carousel = () => {
             description:
                 "17 अप्रैल 2024 तारीख 8 बजे सैफूल सिंग कार्यसमिति समूह में पोस्ट कर दिया गया है",
             textColor: "text-white",
-            bgImage: update1, 
-            arrowColor: "text-black"
+            bgImage: update1,
+            arrowColor: "text-black",
         },
         {
             title: "कार्यसमिति बैठक",
             description:
                 "17 अप्रैल 2024 तारीख 8 बजे सैफूल सिंग कार्यसमिति समूह में पोस्ट कर दिया गया है",
             textColor: "text-black",
-            bgImage: update2, 
-            arrowColor: "text-[#FFB39D]"
-            
+            bgImage: update2,
+            arrowColor: "text-[#FFB39D]",
         },
         {
             title: "कार्यसमिति बैठक",
             description:
                 "17 अप्रैल 2024 तारीख 8 बजे सैफूल सिंग कार्यसमिति समूह में पोस्ट कर दिया गया है",
             textColor: "text-black",
-            bgImage: update3, 
-            arrowColor: "text-[#FFDE97]"
+            bgImage: update3,
+            arrowColor: "text-[#FFDE97]",
         },
         {
             title: "View All",
             description: "",
-            bgColor: "bg-[#FFD6D6]",
+            bgImage: update4,
             textColor: "text-black",
-            bgImage: update4, 
-            arrowColor: "text-[#FFB39D]"
+            arrowColor: "text-[#FFB39D]",
         },
     ];
 
@@ -77,20 +75,20 @@ const Carousel = () => {
                 {slides.map((slide, index) => (
                     <div key={index} className="px-2">
                         <div
-                            className={`h-64 rounded-lg flex flex-col justify-between p-5 ${slide.bgColor} ${slide.textColor}`}
+                            className={`h-72 md:h-64 rounded-lg flex flex-col justify-between p-5 ${slide.textColor}`}
                             style={{
                                 backgroundImage: `url(${slide.bgImage})`,
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                             }}
                         >
-                            <h3 className="text-lg font-bold mt-2">{slide.title}</h3>
+                            <h3 className="text-lg font-bold">{slide.title}</h3>
                             {slide.description && (
-                                <p className="text-xs leading-6 mt-8">{slide.description}</p>
+                                <p className="text-xs leading-5 mt-4 md:mt-8">{slide.description}</p>
                             )}
-                            <button className="mt-auto text-sm flex items-center gap-10">
-                                <span className="font-thin text-lg">More info</span>
-                                <span className="transition-transform transform group-hover:translate-x-1 bg-white rounded-md p-2">
+                            <button className="mt-auto text-sm flex items-center gap-4">
+                                <span className="font-medium">More info</span>
+                                <span className="transition-transform transform bg-white rounded-full p-2">
                                     <FaArrowRight className={`${slide.arrowColor}`} />
                                 </span>
                             </button>
