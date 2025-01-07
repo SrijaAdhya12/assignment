@@ -40,7 +40,7 @@ const Carousel = () => {
                 "17 अप्रैल 2024 तारीख 8 बजे सैफूल सिंग कार्यसमिति समूह में पोस्ट कर दिया गया है",
             textColor: "text-white",
             bgImage: update1,
-            arrowColor: "text-black",
+            arrowColor: "text-red-700",
         },
         {
             title: "कार्यसमिति बैठक",
