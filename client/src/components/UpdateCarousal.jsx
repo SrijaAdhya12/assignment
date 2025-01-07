@@ -10,26 +10,24 @@ const Carousel = () => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
                 },
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
                 },
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
                 },
             },
         ],
@@ -70,7 +68,7 @@ const Carousel = () => {
     ];
 
     return (
-        <div className="p-4">
+        <div className="p-4 max-w-screen-lg mx-auto">
             <Slider {...settings}>
                 {slides.map((slide, index) => (
                     <div key={index} className="px-2">
@@ -84,11 +82,15 @@ const Carousel = () => {
                         >
                             <h3 className="text-lg font-bold">{slide.title}</h3>
                             {slide.description && (
-                                <p className="text-xs leading-5 mt-4 md:mt-8">{slide.description}</p>
+                                <p className="text-xs leading-5 mt-4 md:mt-8">
+                                    {slide.description}
+                                </p>
                             )}
-                            <button className="mt-auto text-sm flex items-center gap-4">
+                            <button className="mt-auto text-sm flex items-center gap-2">
                                 <span className="font-medium">More info</span>
-                                <span className="transition-transform transform bg-white rounded-full p-2">
+                                <span
+                                    className={`transition-transform transform hover:scale-110 bg-white rounded-full p-2`}
+                                >
                                     <FaArrowRight className={`${slide.arrowColor}`} />
                                 </span>
                             </button>
