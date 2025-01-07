@@ -38,7 +38,7 @@ const Taskbox = () => {
               </div>
               <div className='flex flex-col gap-2'>
                   <h3 className='text-xl font-semibold'>Sangathan Yatra</h3>
-                  <div className='text-sm justify-center items-center bg-purple-200 border-blue-500 border-2 rounded-xl text-center w-24 py-1'>
+                  <div className='text-sm justify-center items-center bg-blue-200 border-blue-500 border-2 rounded-xl text-center w-24 py-1'>
                       In Progress
                   </div>
               </div>
