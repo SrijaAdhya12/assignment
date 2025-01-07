@@ -18,6 +18,9 @@ const Carousel = () => {
         centerMode: true,
         centerPadding: "0px",
         beforeChange: (current, next) => setActiveSlide(next),
+        customPaging: () => (
+            <div className="w-2 h-2 mx-0.5 bg-red-500 rounded-full  my-2" /> // Custom dot style (red)
+        ),
     };
 
     const slides = [
