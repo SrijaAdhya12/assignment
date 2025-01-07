@@ -1,4 +1,5 @@
 import { PiFlowerLotusBold } from "react-icons/pi"
+import { UpdateCarousal } from "../components"
 const Updates = () => {
   return (
       <section className="container mx-auto px-5 py-5">
@@ -8,6 +9,7 @@ const Updates = () => {
                   <h2 className="text-2xl font-medium">Updates</h2>
               </div>
           </div>
+          <UpdateCarousal />
     </section>
   )
 }

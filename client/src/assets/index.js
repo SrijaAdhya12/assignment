@@ -4,3 +4,8 @@ export { default as lotus } from './lotus.png'
 export { default as lotustop } from './lotustop.png'
 export { default as carausalimage } from './carausalimage.png'
 export { default as carausalimage2 } from './carausalimage2.png'
+export { default as update1 } from './update1.png'
+export { default as update2 } from './update2.png'
+export { default as update3 } from './update3.png'
+export { default as update4 } from './update4.png'
+
