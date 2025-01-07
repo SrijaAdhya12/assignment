@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import { FaArrowRight } from "react-icons/fa"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { carausalimage } from "../assets";
@@ -73,15 +74,16 @@ const Carousel = () => {
                 ))}
                 <div className="p-4">
                     <div
-                        className="flex items-center justify-center bg-gray-900 text-white rounded-xl h-72 shadow-lg"
+                        className="flex flex-col gap-4 items-center justify-center bg-gray-900 text-white rounded-xl h-72 shadow-lg opacity-90"
                         style={{
                             backgroundImage: `url(${carausalimage})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center'
                         }}
                     >
-                        <button className="bg-red-500 px-6 py-2 text-white rounded-full">
-                            View All
+                        <h1 className="text-2xl font-bold ">View All</h1>
+                        <button className="bg-red-700 px-6 py-4 text-white rounded-xl flex items-center gap-2">
+                            <FaArrowRight />
                         </button>
                     </div>
                 </div>
