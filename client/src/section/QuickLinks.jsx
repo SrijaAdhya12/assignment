@@ -39,7 +39,7 @@ const QuickLinks = () => {
         },
     ]
   return (
-    <section className="container mx-auto px-5 py-10">
+    <section className="container mx-auto px-5 py-10 mb-32">
         <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
                 <PiFlowerLotusBold size={35} className="text-red-700" />
