@@ -80,13 +80,13 @@ const Carousel = () => {
                                 backgroundPosition: "center",
                             }}
                         >
-                            <h3 className="text-lg font-bold">{slide.title}</h3>
+                            <h3 className="text-xl font-bold">{slide.title}</h3>
                             {slide.description && (
                                 <p className="text-xs leading-5 mt-4 md:mt-8">
                                     {slide.description}
                                 </p>
                             )}
-                            <button className="mt-auto text-sm flex items-center gap-2">
+                            <button className="mt-auto text-md flex items-center gap-6">
                                 <span className="font-medium">More info</span>
                                 <span
                                     className={`transition-transform transform hover:scale-110 bg-white rounded-full p-2`}
