@@ -26,7 +26,7 @@ const Hero = () => {
                   </span>
               </div>
               </div>
-              <div className="pt-8 flex items-center gap-20 sm:gap-[1300px]">
+              <div className="pt-8 flex items-center gap-20 sm:gap-[1200px]">
                   <div className="flex items-center gap-4">
                   <img
                       src={profile}
