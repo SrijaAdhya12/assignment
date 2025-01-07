@@ -1,5 +1,4 @@
-import { Hero } from "../components"
-
+import { Hero } from "../section"
 const Home = () => {
   return (
     <Hero />
