@@ -31,10 +31,10 @@ const ProfileBox = () => {
         <div key={option.name} className="flex gap-4 items-center justify-between p-2 bg-white rounded-md shadow-md border border-gray-100 hover:scale-105 transition-all duration-300">
           <div className="flex items-center gap-4">
             <div className='flex items-center justify-center text-gray-500 bg-red-100 rounded-md p-4'>
-              <option.icon size={20} />
+              <option.icon size={25} />
             </div>
             <div>
-              <h3 className="text-sm font-semibold text-red-500">{option.name}</h3>
+              <h3 className="text-sm font-semibold text-red-700">{option.name}</h3>
               <p className="font-thin text-sm text-gray-500">{option.description}</p>
             </div>
             </div>

@@ -26,7 +26,7 @@ const ProfileSection = () => {
         <div className="flex items-center justify-center">
           <img src={profile} alt="profile" className="w-20 h-20 rounded-full" />
           <div className="relative">
-          <div className="fixed z-10 right-48 top-32 flex items-center justify-center w-7 h-7 bg-white rounded-full border-red-500 border-2">
+          <div className="absolute z-10 right-0 top-2 flex items-center justify-center w-7 h-7 bg-white rounded-full border-red-500 border-2">
             <GoPencil />
           </div>
           </div>
