@@ -17,7 +17,7 @@ const BottomNav = () => {
     ];
 
     return (
-        <div className="fixed bottom-0 w-full bg-white border-t rounded-t-3xl  border-gray-200">
+        <div className="fixed bottom-0 w-full bg-white border-t rounded-t-3xl border-gray-200">
             <div className="flex justify-between items-center px-5 py-2">
                 {navItems.map(({ id, icon: Icon, label, color }) => (
                     <button
