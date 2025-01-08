@@ -11,7 +11,7 @@ const Birthdays = () => {
               </div>
           </div>
           <BirthdayCarousel />
-          <button className="flex items-center rounded-md border-red-500 justify-center p-4 border w-full mt-12">
+          <button className="flex items-center rounded-md border-red-500 justify-center p-4 border w-full mt-12 hover:bg-red-500 hover:text-white transition-all duration-300">
               Upcoming Birthdays
           </button>
     </section>
