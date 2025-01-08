@@ -49,7 +49,7 @@ const QuickLinks = () => {
           <div className="grid grid-cols-4 gap-3 mt-5  p-5 rounded-3xl bg-white shadow-xl border">
               {quickLinks.map((link) => (
                   <div className="flex flex-col items-center justify-center">
-              <button className="flex items-center rounded-full border-gray-300 justify-center w-16 h-16 border shadow-sm hover:scale-105 transition-all duration-300 ">
+              <button className="flex items-center rounded-full border-gray-300 justify-center w-16 h-16 border shadow-sm hover:scale-125 hover:shadow-lg transition-all duration-300 ">
                   {link.icon}
                       </button>
                       <p className="text-gray-600 text-xs mt-2 font-light">{link.name}</p>
