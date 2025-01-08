@@ -54,7 +54,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             >
                 <div className="p-4 border-b pb-10">
                     <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-4 pt-20">
+                        <div className="flex items-center gap-4 pt-14">
                             <img src={profile} alt="Profile" className="w-14 h-14 rounded-full" />
                             <div>
                                 <p className="text-lg font-semibold pb-1">Vikki Jain</p>
@@ -79,7 +79,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                             {menuItems.map((item, index) => (
                                 <li key={index}>
                                     <button
-                                        className="flex items-center gap-2 w-full px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg"
+                                        className="flex items-center gap-4 w-full px-4 py-2 text-gray-600 hover:bg-gray-100 rounded-lg"
                                     >
                                         <item.icon size={20} />
                                         <span>{item.title}</span>
@@ -89,7 +89,7 @@ const Sidebar = ({ isOpen, onClose }) => {
                         </ul>
                 <hr className="border-gray-200 my-4" />
                 <div className="flex items-center justify-center pb-24">
-                    <p className="text-gray-500 text-xs">
+                    <p className="text-gray-400 text-xs">
                         Version 89799.00
                     </p>
                 </div>
@@ -124,7 +124,7 @@ const Hero = () => {
                     <Link to="/profile">
                         <button className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
                             <span className="text-gray-600">
-                                <IoPersonOutline size={20} />
+                                <IoPersonOutline size={20} className="" />
                             </span>
                         </button>
                     </Link>
@@ -146,7 +146,7 @@ const Hero = () => {
                     </div>
                     <div className="h-8 p-3 gap-2 bg-white flex items-center justify-center rounded-md text-red-700 z-10">
                         <RiCopperCoinLine size={20} />
-                        <p className="font-medium">4000</p>
+                        <p className="font-medium tracking-wide">4000</p>
                     </div>
                 </div>
                 <div>

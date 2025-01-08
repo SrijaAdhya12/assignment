@@ -27,10 +27,10 @@ const BottomNav = () => {
                     >
                         <Icon
                             size={24}
-                            className={activeTab === id ? color : 'text-gray-600 '}
+                            className={activeTab === id ? color : 'text-gray-700 '}
                         />
                         <span
-                            className={`text-xs ${activeTab === id ? color : 'text-gray-400'}`}
+                            className={`text-xs ${activeTab === id ? color : 'text-gray-700'}`}
                         >
                             {label}
                         </span>

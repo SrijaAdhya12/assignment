@@ -42,7 +42,7 @@ const QuickLinks = () => {
     <section className="container mx-auto px-5 py-10 mb-32">
         <div className="flex justify-between items-center ">
             <div className="flex items-center gap-2">
-                <PiFlowerLotusBold size={35} className="text-red-700" />
+                <PiFlowerLotusBold size={35} className="text-red-600" />
                 <h2 className="text-2xl font-medium">Quick Links</h2>
             </div>
           </div>
@@ -52,7 +52,7 @@ const QuickLinks = () => {
               <button className="flex items-center rounded-full border-gray-300 justify-center w-16 h-16 border shadow-sm hover:scale-105 transition-all duration-300 ">
                   {link.icon}
                       </button>
-                      <p className="text-gray-800 text-xs mt-2">{link.name}</p>
+                      <p className="text-gray-600 text-xs mt-2 font-light">{link.name}</p>
                   </div>
               ))}
           </div>
