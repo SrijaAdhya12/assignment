@@ -18,12 +18,12 @@ const BottomNav = () => {
 
     return (
         <div className="fixed bottom-0 w-full bg-white border-t rounded-t-3xl  border-gray-200">
-            <div className="flex justify-between items-center px-4 py-2">
+            <div className="flex justify-between items-center px-5 py-2">
                 {navItems.map(({ id, icon: IconComponent, label, color }) => (
                     <button
                         key={id}
                         onClick={() => setActiveTab(id)}
-                        className="flex flex-col items-center space-y-1 px-4 py-2"
+                        className="flex flex-col items-center gap-1 px-3 py-2"
                     >
                         <IconComponent
                             size={24}
