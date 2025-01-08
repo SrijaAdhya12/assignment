@@ -3,6 +3,7 @@ import { IoPersonOutline } from "react-icons/io5"
 import { MdOutlineWorkOutline } from "react-icons/md"
 import { RiCopperCoinLine } from "react-icons/ri"
 import { logo, profile, lotus, lotustop } from "../assets"
+import { Link } from "react-router-dom"
 const Hero = () => {
   return (
       <section className="bg-[#C01F101A]  rounded-b-3xl relative">
@@ -19,12 +20,13 @@ const Hero = () => {
                       alt="Logo"
                       className="h-10"
                   />
-
-              <div className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
+                <Link to= "/profile">
+              <button className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
                   <span className="text-gray-600">
                       <IoPersonOutline size={20}/>
                   </span>
-              </div>
+                  </button>
+                  </Link>
               </div>
               <div className="pt-8 flex items-center gap-20 sm:gap-[1200px]">
                   <div className="flex items-center gap-4">
