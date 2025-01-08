@@ -40,7 +40,7 @@ const Carousel = () => {
         <div className="w-full max-w-4xl mx-auto px-4">
             <Slider {...settings}>
                 {slides.map((slide, index) => (
-                    <div key={slide.id} className="p-4 relative">
+                    <div key={slide.id} className="py-4 px-2 relative">
                         {activeSlide !== index && (
                             <div className="absolute inset-0 bg-opacity-50 rounded-xl z-10"></div>
                         )}

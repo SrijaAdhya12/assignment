@@ -64,15 +64,15 @@ export function EventCarousel() {
                                     className="object-cover w-full h-full"
                                 />
                                 <div className="absolute top-4 right-4">
-                                    <div className="bookmark-date w-20 px-2 pt-1 pb-5">
+                                    <div className="bookmark-date w-20 px-2 pt-1 pb-6">
                                         <div className="text-center">
-                                            <div className="text-2xl font-bold">{event.date.day}</div>
+                                            <div className="text-xl font-bold">{event.date.day}</div>
                                             <div className="text-sm">{event.date.month}</div>
                                             <div className="text-sm">{event.date.year}</div>
                                         </div>
                                     </div>
                                 </div>
-                                <button className="absolute bottom-4 right-4 bg-red-600 text-white rounded-md py-2 px-4">
+                                <button className="absolute bottom-3 right-4 bg-red-600 text-white rounded-md py-2 px-4">
                                     Register <br />
                                     Now
                                 </button>
