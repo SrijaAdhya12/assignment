@@ -1,9 +1,11 @@
 import { ProfileSection } from "../section"
+import { ProfileBox } from "../components"
 
 const Profile = () => {
   return (
       <div>
-          <ProfileSection/>
+          <ProfileSection />
+          <ProfileBox />
     </div>
   )
 }
