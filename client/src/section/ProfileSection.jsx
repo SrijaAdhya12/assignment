@@ -25,7 +25,7 @@ const ProfileSection = () => {
 
         <div className="flex items-center justify-center relative">
           <img src={profile} alt="profile" className="w-20 h-20 rounded-full" />
-          <div className="absolute right-48 bottom-0 flex items-center justify-center w-7 h-7 bg-white rounded-full border-red-500 border-2">
+          <div className="fixed z-10 right-48 top-32 flex items-center justify-center w-7 h-7 bg-white rounded-full border-red-500 border-2">
             <GoPencil />
           </div>
         </div>
@@ -39,7 +39,7 @@ const ProfileSection = () => {
         </div>
       </div>
       <div>
-        <img src={lotus} alt="lotus" className="absolute bottom-0 right-1  h-15" />
+        <img src={lotus} alt="lotus" className="absolute bottom-0 right-1 h-15" />
       </div>
     </section>
   )
