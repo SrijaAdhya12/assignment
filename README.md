@@ -2,7 +2,7 @@
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/assignment">
-        <img width="200" src="https://img.icons8.com/?size=1000&id=46874" alt="assignment">
+        <img width="200" src="https://github.com/user-attachments/assets/fc3c4f62-7395-4ac7-b2f6-85a5873e5dc7" alt="assignment">
     </a>
     <p style="font-family: roboto, calibri; font-size:12pt; font-style:italic"> A fully mobile responsive web application </p>
     <a src="https://github.com/SrijaAdhya12/assignment/forks">
@@ -28,6 +28,7 @@
 ## Introduction
 - A fully mobile responsive replica web application built on Tailwind and React.
 - Don't open on laptop/tablet/pc, made exclusively for mobile.
+- [Figma Design](https://www.figma.com/design/pqDhRIcZs81lXRq5PVeyp8/Task-Home-Page?node-id=0-1&p=f&t=mkxgB0DG3ayypxnJ-0)
 
 ![line]
 
