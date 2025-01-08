@@ -1,7 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 import { carausalimage2 } from "../assets";
-import { CiLocationOn } from "react-icons/ci"
+import { CiLocationOn } from "react-icons/ci";
+
 const events = [
     {
         id: 1,
@@ -42,21 +43,33 @@ export function EventCarousel() {
 
     return (
         <div className="w-full max-w-sm md:max-w-md lg:max-w-lg">
+            <style>
+                {`
+                    .bookmark-date {
+                        position: relative;
+                        background: white;
+                        clip-path: polygon(100% 0%, 100% 100%, 51% 82%, 0 100%, 0% 50%, 0 0);
+                        border-radius: 15px;
+                    }
+                `}
+            </style>
             <Slider {...settings} className="event-carousel">
                 {events.map((event) => (
                     <div key={event.id} className="p-1">
-                        <div className="border-0 rounded-lg ">
+                        <div className="border-0 rounded-lg">
                             <div className="relative aspect-[3/2] overflow-hidden rounded-lg">
                                 <img
                                     src={event.image}
                                     alt={event.title}
                                     className="object-cover w-full h-full"
                                 />
-                                <div className="absolute top-4 right-4 bg-white rounded-lg p-2">
-                                    <div className="text-center">
-                                        <div className="text-2xl font-bold">{event.date.day}</div>
-                                        <div className="text-sm">{event.date.month}</div>
-                                        <div className="text-sm">{event.date.year}</div>
+                                <div className="absolute top-4 right-4">
+                                    <div className="bookmark-date w-20 px-2 pt-1 pb-5">
+                                        <div className="text-center">
+                                            <div className="text-2xl font-bold">{event.date.day}</div>
+                                            <div className="text-sm">{event.date.month}</div>
+                                            <div className="text-sm">{event.date.year}</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <button className="absolute bottom-4 right-4 bg-red-600 text-white rounded-md py-2 px-4">
@@ -68,7 +81,7 @@ export function EventCarousel() {
                                 <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
                                 <div className="flex items-center text-gray-600">
                                     <CiLocationOn size={20} className="mr-2" />
-                                    <span className="text-sm ">{event.location}</span>
+                                    <span className="text-sm">{event.location}</span>
                                 </div>
                             </div>
                         </div>
