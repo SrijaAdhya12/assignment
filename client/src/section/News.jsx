@@ -32,7 +32,7 @@ const Carousel = () => {
             id: 2,
             title: "महातपस्वी की मंगल सन्निधि में आयोजित हुआ ज्ञानशाला दीक्षान्त समारोह",
             image: carausalimage,
-            time: "5 mins ago",
+            time: "3 mins ago",
         }
     ];
 
@@ -55,8 +55,8 @@ const Carousel = () => {
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-between p-4 rounded-xl">
                                 <span
-                                    className={`text-sm px-2 py-1 font-semibold rounded-md self-start ${activeSlide === index
-                                        ? "bg-white text-red-500"
+                                    className={`text-sm px-2 py-1 font-medium rounded-md self-start ${activeSlide === index
+                                        ? "bg-white text-red-700 "
                                         : "bg-gray-500 text-gray-300"
                                         } ml-auto`}
                                 >
