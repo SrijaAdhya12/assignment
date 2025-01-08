@@ -8,4 +8,5 @@ export { default as update1 } from './update1.png'
 export { default as update2 } from './update2.png'
 export { default as update3 } from './update3.png'
 export { default as update4 } from './update4.png'
-
+export { default as Birthday1 } from './Birthday1.png'
+export { default as Birthday2 } from './Birthday2.png'
