@@ -1,4 +1,5 @@
 import Slider from 'react-slick';
+import { MdOutlineWorkOutline } from "react-icons/md"
 import { Birthday1, Birthday2 } from '../assets';
 const BirthdayCarousel = () => {
     const settings = {
@@ -63,10 +64,10 @@ const BirthdayCarousel = () => {
                                     alt="Birthday"
                                     className="w-full h-full"
                                 />
-                                <div className="absolute bottom-10 left-9 p-2 px-5 rounded-md  bg-white  text-center">
+                                <div className="absolute bottom-10 left-8  px-3 py-2 rounded-md  bg-white  text-center">
                                     <h2 className="text-md font-bold ">{card.name}</h2>
-                                    <p className="text-gray-600 text-[10px] flex items-center justify-center">    
-                                        
+                                    <p className="text-gray-600 text-[10px] flex items-center justify-center gap-1">    
+                                        <MdOutlineWorkOutline size={15} />
                                         {card.designation}
                                     </p>
                                 </div>
