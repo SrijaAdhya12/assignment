@@ -23,7 +23,7 @@ const BottomNav = () => {
                     <button
                         key={id}
                         onClick={() => setActiveTab(id)}
-                        className="flex flex-col items-center gap-1 px-3 py-2"
+                        className="flex flex-col items-center gap-1 px-1 py-2"
                     >
                         <IconComponent
                             size={24}
