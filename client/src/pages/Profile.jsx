@@ -1,11 +1,12 @@
 import { ProfileSection } from "../section"
-import { ProfileBox } from "../components"
+import { ProfileBox, LogOut } from "../components"
 
 const Profile = () => {
   return (
       <div>
           <ProfileSection />
           <ProfileBox />
+          <LogOut />
     </div>
   )
 }

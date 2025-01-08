@@ -26,7 +26,7 @@ const ProfileBox = () => {
   ];
 
   return (
-    <div className="p-6 flex flex-col gap-4">
+    <div className="p-6 flex flex-col gap-4 my-4">
       {options.map((option) => (
         <div key={option.name} className="flex items-center justify-between p-2 bg-white rounded-md shadow-md border border-gray-200">
           <div className="flex items-center gap-4">
