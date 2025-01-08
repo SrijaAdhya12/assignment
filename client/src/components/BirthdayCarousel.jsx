@@ -13,7 +13,7 @@ const BirthdayCarousel = () => {
         centerPadding: '0px',
         className: 'center',
         customPaging: () => (
-            <div className="w-2 h-2 rounded-full bg-red-500 mt-4"></div>
+            <div className="w-2 h-2 rounded-full bg-red-500"></div>
         ),
     };
 
