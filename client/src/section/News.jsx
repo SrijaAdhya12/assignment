@@ -12,7 +12,7 @@ const Carousel = () => {
         dots: true,
         infinite: false,
         speed: 500,
-        slidesToShow: 1.2,
+        slidesToShow: 1.3,
         slidesToScroll: 1,
         draggable: true,
         arrows: false,
