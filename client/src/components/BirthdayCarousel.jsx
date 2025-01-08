@@ -1,6 +1,5 @@
 import Slider from 'react-slick';
 import { Birthday1, Birthday2 } from '../assets';
-
 const BirthdayCarousel = () => {
     const settings = {
         dots: true,
@@ -66,7 +65,8 @@ const BirthdayCarousel = () => {
                                 />
                                 <div className="absolute bottom-10 left-9 p-2 px-5 rounded-md  bg-white  text-center">
                                     <h2 className="text-md font-bold ">{card.name}</h2>
-                                    <p className="text-gray-600 text-[10px] flex items-center justify-center">                                            
+                                    <p className="text-gray-600 text-[10px] flex items-center justify-center">    
+                                        
                                         {card.designation}
                                     </p>
                                 </div>
