@@ -1,4 +1,5 @@
 import { PiFlowerLotusBold } from "react-icons/pi"
+import { BirthdayCarousel } from "../components"
 
 const Birthdays = () => {
   return (
@@ -9,6 +10,7 @@ const Birthdays = () => {
                   <h2 className="text-2xl font-medium">Birthdays</h2>
               </div>
           </div>
+          <BirthdayCarousel />
           <button className="flex items-center rounded-md border-red-500 justify-center p-4 border w-full mt-5">
               Upcoming Birthdays
           </button>
