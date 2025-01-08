@@ -1,0 +1,6 @@
+.bookmark-date{
+    position: relative;
+    background: white;
+    clip-path: polygon(100% 0%, 100% 100%, 51% 82%, 0 100%, 0% 50%, 0 0);
+    border-radius: 15px;
+}

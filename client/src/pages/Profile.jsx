@@ -3,11 +3,11 @@ import { ProfileBox, LogOut } from "../components"
 
 const Profile = () => {
   return (
-      <div>
-          <ProfileSection />
-          <ProfileBox />
-          <LogOut />
-    </div>
+    <main>
+      <ProfileSection />
+      <ProfileBox />
+      <LogOut />
+    </main>
   )
 }
 

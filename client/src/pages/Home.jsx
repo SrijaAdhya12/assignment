@@ -1,15 +1,15 @@
 import { Hero, Task, News, Events, Updates, Birthdays, QuickLinks } from "../section"
 const Home = () => {
   return (
-    <>
-    <Hero />
+    <main>
+      <Hero />
       <Task />
       <News />
       <Events />
       <Updates />
       <Birthdays />
       <QuickLinks />
-    </>
+    </main>
   )
 }
 
