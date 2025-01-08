@@ -57,14 +57,14 @@ const BirthdayCarousel = () => {
             <Slider {...settings}>
                 {cards.map((card, index) => (
                     <div key={index} className="">
-                        <div className="relative rounded-lg shadow-lg overflow-hidden">                           
+                        <div className="relative rounded-lg overflow-hidden">                           
                             <div className="relative">
                                 <img
                                     src={card.image}
                                     alt="Birthday"
                                     className="w-full h-full"
                                 />
-                                <div className="absolute bottom-10 left-8 p-2 px-6 rounded-md  bg-white  text-center">
+                                <div className="absolute bottom-10 left-9 p-2 px-5 rounded-md  bg-white  text-center">
                                     <h2 className="text-md font-bold ">{card.name}</h2>
                                     <p className="text-gray-600 text-[10px] flex items-center justify-center">                                            
                                         {card.designation}
