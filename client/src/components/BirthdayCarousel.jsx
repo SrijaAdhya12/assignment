@@ -56,7 +56,7 @@ const BirthdayCarousel = () => {
       `}</style>
             <Slider {...settings}>
                 {cards.map((card, index) => (
-                    <div key={index} className="">
+                    <div key={index}>
                         <div className="relative rounded-lg overflow-hidden">                           
                             <div className="relative">
                                 <img
