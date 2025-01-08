@@ -30,7 +30,9 @@ const ProfileBox = () => {
       {options.map((option) => (
         <div key={option.name} className="flex items-center justify-between p-2 bg-white rounded-md shadow-md border border-gray-200">
           <div className="flex items-center gap-4">
-            <option.icon size={55} className=" text-gray-500 bg-red-100 rounded-md p-4" />
+            <div className='flex items-center justify-center text-gray-500 bg-red-100 rounded-md p-4'>
+              <option.icon size={20} />
+            </div>
             <div>
               <h3 className="text-sm font-semibold text-red-500">{option.name}</h3>
               <p className="font-thin text-sm text-gray-500">{option.description}</p>
