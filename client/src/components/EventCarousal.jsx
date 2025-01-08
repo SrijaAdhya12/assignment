@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { carausalimage2 } from "../assets"; 
+import { carausalimage2 } from "../assets";
 import { CiLocationOn } from "react-icons/ci"
 const events = [
     {
@@ -32,7 +32,7 @@ export function EventCarousel() {
         dots: false,
         infinite: false,
         speed: 500,
-        slidesToShow: 1.1, 
+        slidesToShow: 1.2,
         slidesToScroll: 1,
         centerMode: true,
         arrows: false,
@@ -60,14 +60,14 @@ export function EventCarousel() {
                                     </div>
                                 </div>
                                 <button className="absolute bottom-4 right-4 bg-red-600 text-white rounded-md py-2 px-4">
-                                    Register <br/>
+                                    Register <br />
                                     Now
                                 </button>
                             </div>
                             <div className="p-4">
                                 <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
                                 <div className="flex items-center text-gray-600">
-                                        <CiLocationOn size={20} className="mr-2" />
+                                    <CiLocationOn size={20} className="mr-2" />
                                     <span className="text-sm ">{event.location}</span>
                                 </div>
                             </div>
