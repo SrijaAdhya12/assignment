@@ -124,7 +124,7 @@ const Hero = () => {
                     <Link to="/profile">
                         <button className="flex items-center justify-center w-10 h-10 bg-white rounded-full">
                             <span className="text-gray-600">
-                                <IoPersonOutline size={20} className="" />
+                                <IoPersonOutline size={20}  />
                             </span>
                         </button>
                     </Link>

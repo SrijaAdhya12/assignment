@@ -42,7 +42,7 @@ const Carousel = () => {
                 {slides.map((slide, index) => (
                     <div key={slide.id} className="py-4 px-2 relative">
                         {activeSlide !== index && (
-                            <div className="absolute inset-0 bg-opacity-50 rounded-xl z-10"></div>
+                            <div className="absolute inset-0  bg-opacity-50 rounded-xl z-10"></div>
                         )}
                         <div
                             className={`relative bg-gray-800 text-white rounded-xl overflow-hidden shadow-lg ${activeSlide !== index ? "opacity-80" : "opacity-100"
