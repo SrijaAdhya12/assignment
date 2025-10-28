@@ -1,4 +1,4 @@
-    updated on: 27th September 2025, Saturday
+    updated on: 28th October 2025, Tuesday
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/assignment">
@@ -87,4 +87,4 @@ $> npm run dev # run the frontend
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 [License]: https://github.com/SrijaAdhya12/assignment/blob/main/LICENSE
 
-<!-- 27/09/25 -->
+<!-- 28/10/25 -->
